@@ -8,121 +8,121 @@ import App from "./App.svelte";
 const app = new App({
   target: document.body,
   props: {
-    teamNames: ["Dunning–Kruger Effect", "Impostor Syndrome"],
+    teamNames: ["Superman", "Batman"],
     qas: [
       {
-        question: "Which programing language is dead?",
+        question: "Name A Job Which Might Require Someone To Work On Christmas?",
         answers: [
           {
-            text: "Perl",
+            text: "Nurse",
+            money: 22
+          },
+          {
+            text: "Doctor",
             money: 17
           },
           {
-            text: "PHP",
-            money: 11
+            text: "Police",
+            money: 15
           },
           {
-            text: "Haskell",
-            money: 6
+            text: "Cashier",
+            money: 8
           },
           {
-            text: "Lisp",
-            money: 4
+            text: "Santa Claus",
+            money: 7
           },
           {
-            text: "Ruby",
-            money: 3
-          },
-          {
-            text: "Elm",
-            money: 1
+            text: "Cook",
+            money: 5
           }
         ]
       },
       {
-        question: "What is the most hated thing about programming?",
+        question: "What Everyday Activity Burns The Most Calories?",
         answers: [
           {
-            text: "Whiteboarding",
+            text: "Running",
             money: 17
           },
           {
-            text: "Naming Things",
+            text: "Walking",
             money: 11
           },
           {
-            text: "Stand-ups",
+            text: "Yoga",
+            money: 8
+          },
+          {
+            text: "Laughing",
             money: 6
           },
           {
-            text: "OBOE",
-            money: 4
+            text: "Cleaning",
+            money: 5
           },
           {
-            text: "Cache Invalidation",
+            text: "Gardening",
             money: 3
-          },
-          {
-            text: "Jira",
-            money: 1
           }
         ]
       },
       {
-        question: "Name a flame war you've been in.",
+        question: "Name Something Vampires Hate",
         answers: [
           {
-            text: "Tabs vs Spaces",
+            text: "Sun",
             money: 17
           },
           {
-            text: "OOP vs Functional",
-            money: 11
+            text: "Cross",
+            money: 15
           },
           {
-            text: "GNOME vs KDE",
-            money: 6
+            text: "Garlic",
+            money: 10
           },
           {
-            text: "Vim vs Emacs",
-            money: 4
+            text: "Wooden Stake",
+            money: 8
           },
           {
-            text: "Chrome vs Firefox",
-            money: 3
+            text: "Holy Water",
+            money: 7
           },
           {
-            text: "NoSQL vs RDMS",
-            money: 1
+            text: "Van Helsing",
+            money: 5
           }
         ]
       },
       {
-        question: "Which language should you rewrite something in?",
+        question: "Name An Animal That Can Climb Trees",
         answers: [
           {
-            text: "Rust",
+            text: "Monkey",
+            money: 20
+          },
+          {
+            text: "Squirrel",
             money: 17
           },
           {
-            text: "Go",
-            money: 11
+            text: "Cat",
+            money: 12
           },
           {
-            text: "JavaScript",
+            text: "Snake",
+            money: 10
+          },
+          {
+            text: "Sloth",
             money: 6
           },
           {
-            text: "Elm",
+            text: "Panda",
             money: 4
-          },
-          {
-            text: "Kotlin",
-            money: 3
-          },
-          {
-            text: "Elixir",
-            money: 1
           }
         ]
       }

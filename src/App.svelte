@@ -334,7 +334,7 @@
     <div class="column-center">
       <div class="logo logo-border-animation">
         <div class="logo-text">
-          Hacker Feud
+          Family Feud
         </div>
       </div>
       <button on:click={startGame}>
